@@ -5,6 +5,6 @@ describe("Pruebas en 02-tempalte-string", () => {
     const name = "Fernando";
     const message = getSaludo(name);
 
-    expect(message).toBe(`Hola ${name}!!!`);
+    expect(message).toBe(`Hola ${name}`);
   });
 });
